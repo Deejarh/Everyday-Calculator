@@ -64,7 +64,7 @@ const calculate = () => {
 
 <style  scoped>
 .card {
-    @apply bg-gray-700 w-full  max-w-[450px]  rounded-lg border border-gray-300 text-white p-8
+    @apply bg-gray-700 w-full  max-w-[450px] mx-2 md:mx-0  rounded-lg border border-gray-600 text-white p-8 shadow-xl overflow-hidden overscroll-none
 }
 .displayArea {
     @apply bg-green-800 p-5 rounded-md h-20 mb-10 font-light  flex items-center justify-end text-4xl
